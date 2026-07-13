@@ -7,74 +7,25 @@ import { Reveal, FadeInStagger, FadeInItem } from "@/components/animations/Revea
 const ProjectsSection = () => {
     const featuredProjects = [
         {
-            title: "Ledger",
-            description: "Ledger is a responsive web application that allows users to create, manage, and organize their notes. It features user authentication, a clean dashboard interface, and a RESTful API for note management operations.",
+            title: "TITLE",
+            description: "DESCRIPTION",
             image: ledgerProjectImage,
             technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "MySQL", "JWT"],
-            github: "https://github.com/YashPalav-26/Ledger",
-            live: "https://ledger-notesmanager.vercel.app/",
+            github: "GITHUB LINK",
+            live: "DEPLOY LINK",
         },
-        {
-            title: "ApexScript Code Editor",
-            description: "ApexScript is a sleek, user-friendly code editor using HTML, CSS, React, and Tailwind CSS. Designed for all skill levels, it offers a clean interface and powerful features to enhance your coding experience across multiple languages, ensuring a seamless workflow.",
-            image: apexscriptImage,
-            technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
-            github: "https://github.com/YashPalav-26/ApexScript-CodeEditor",
-            live: "https://yash-apexscript.vercel.app",
-        },
-        {
-            title: "TradePro",
-            description: "TradePro is a feature-rich, simulated trading platform designed to provide users with a realistic yet risk-free environment to practice trading strategies, monitor market data, and manage virtual portfolios.",
-            image: tradeproImage,
-            technologies: ["Next.js", "TypeScript", "Node.js", "MongoDB", "JWT"],
-            github: "https://github.com/YashPalav-26/TradePro",
-            live: "https://yash-tradepro.vercel.app/",
-        },
+
     ];
 
     const otherProjects = [
         {
-            title: "Contact Manager Backend",
+            title: "NONE",
             description: "Built a RESTful API using Node.js, Express.js, and MongoDB for secure contact management. Utilized JWT authentication for user registration, login, and CRUD operations. Optimized queries with MongoDB and managed code using Git/GitHub.",
             technologies: ["Node.js", "Express.js", "MongoDB", "JWT"],
-            github: "https://github.com/YashPalav-26/ContactManagerBackend",
+            github: "GITHUBLINK",
             live: "#",
         },
-        {
-            title: "Daisy Flappy",
-            description: "A modern, browser-based Flappy Bird game built with React, Vite, and DaisyUI. Experience the classic arcade gameplay with stunning visuals, multiple themes, and immersive audio in this fully-featured web application.",
-            technologies: ["React", "Vite", "Daisy UI"],
-            github: "https://github.com/YashPalav-26/daisy-flappy",
-            live: "https://daisyflappy.vercel.app/",
-        },
-        {
-            title: "Library Management System",
-            description: "A Sophisticated Library Management System in Python using Tkinter for GUI. It enables efficient book borrowing, member management, and inventory control with SQLite.",
-            technologies: ["Python", "Tkinter", "SQLite"],
-            github: "https://github.com/YashPalav-26/Library-Management-System",
-            live: "#",
-        },
-        {
-            title: "TodoReact",
-            description: "The To-Do App is a task management tool built using React.js and Redux Toolkit. It allows users to add, edit, delete, and mark tasks as completed. Tasks are saved in Local Storage for data persistence.",
-            technologies: ["React.js", "Redux Toolkit", "Local Storage"],
-            github: "https://github.com/YashPalav-26/TodoReact",
-            live: "https://yash-taskmaster.netlify.app",
-        },
-        {
-            title: "Climate-Insight",
-            description: "ClimateInsight is a sleek, modern weather application designed to provide accurate and up-to-date weather information for any city in the world.",
-            technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
-            github: "https://github.com/YashPalav-26/Climate-Insight",
-            live: "https://yash-climateinsight.vercel.app/",
-        },
-        {
-            title: "Color-Cascade",
-            description: "ColorCascade is a powerful and intuitive tool designed to help you create stunning gradients effortlessly. It offers an easy-to-use interface to generate beautiful, seamless gradients for designers, developers, or anyone interested in colors.",
-            technologies: ["HTML", "CSS", "JavaScript"],
-            github: "https://github.com/YashPalav-26/Color-Cascade",
-            live: "https://yash-colorcascade.vercel.app",
-        },
+        
     ];
 
     // return (
